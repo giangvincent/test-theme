@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace OdThemeBoilerplate\Twig;
+namespace TestTheme\Twig;
 
 use Shopware\Core\Content\Media\MediaCollection;
 use Shopware\Core\Framework\Context;
