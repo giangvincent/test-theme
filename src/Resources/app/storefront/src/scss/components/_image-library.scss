@@ -1,0 +1,11 @@
+.imagery {
+    &__download-btn {
+        display: none;
+    }
+
+    &__wrapper:hover {
+        .imagery__download-btn {
+            display: flex;
+        }
+    }
+}

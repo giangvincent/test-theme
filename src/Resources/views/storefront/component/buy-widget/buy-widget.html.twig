@@ -1,0 +1,13 @@
+{% sw_extends '@Storefront/storefront/component/buy-widget/buy-widget.html.twig' %}
+
+{% block buy_widget %}
+    {{ parent() }}
+    
+    <div class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#modal-library-image" >
+        Gratis Vorlagen
+    </div>
+
+    {% sw_include '@Storefront/storefront/component/image-library.html.twig' with {
+        mediaFolderId: '019116ce80e873b48d7fe81c0c4993ad'
+    } %}
+{% endblock %}
